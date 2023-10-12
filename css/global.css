@@ -12,7 +12,8 @@
     --price-color: rgb(255, 196, 82);
     --background-color-dark: rgb(50, 38, 75);
     --background-color: #493b5f;
-    --underline-color: #b87390;
+    --blog-button-hover-color: #b87390;
+    --text-color-light: #fff;
     scroll-behavior: smooth;
     background-color: var(--background-color);
     color: var(--text-color);

@@ -13,7 +13,7 @@
 }
 /*font-family*/
 
-.home-our-menu {
+#home-our-menu {
     padding: 60px 24px;
     text-align: center;
 }
@@ -21,11 +21,13 @@
 .menu-headers-paragraph-welcome {
     color: var(--text-color-alternative);
     font-size: 20px;
+    margin-top: 25px;
 }
 
 .menu-headers-big-paragraph {
     font-size: 34px;
     color: var(--text-color);
+    margin-top: 20px;
 }
 .menu-nav {
     display: inline-flex;
@@ -44,7 +46,7 @@
 }
 
 .menu-nav-sections-button:hover {
-    border-bottom: 3px solid var(--underline-color)
+    border-bottom: 3px solid var(--blog-button-hover-color)
 }
 
 #ice-cream,
@@ -70,9 +72,13 @@
     margin: auto;
 }
 
+.menu-position-img img{
+    display: block;
+    width: 100%;
+}
+
 .menu-position-text {
     display: flex;
-    /*flex-direction: row;*/
     justify-content: center;
     align-content: center;
     height: 30px;
@@ -85,9 +91,6 @@
 
 .menu-position-price{
     color: var(--price-color);
-    margin: 0;
-    padding-top: 0.3em;
-    font-weight: bold;
 }
 
 @media (min-width: 768px){
@@ -99,5 +102,17 @@
 @media (min-width: 992px){
     .menu-pages {
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .menu-nav{
+        justify-content: center;
+    }
+    .menu-headers-sections-name {
+        font-size: 21px;
+    }
+    .menu-headers-big-paragraph {
+        font-size: 48px;
+    }
+    .menu-headers-paragraph-welcome {
+        font-size: 20px;
     }
 }
